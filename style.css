@@ -1,4 +1,42 @@
-body
+/* @font-face {
+    font-family: "Rubik";
+    src: url();
+} */
+
+body{background-color: #73AAAF;}
+nav
 {
-    background-color: aquamarine;
+
+    text-align: center;
+    background-color: #404040;
 }
+
+ul
+{
+    list-style-type: none;
+    
+}
+
+li{display: inline;}
+
+input
+{
+    background-color: #C0C0C0;
+    /* taille de la bar */
+    width: 40%;
+    height: 40px;
+
+    /* bordure input */
+    border-width: 0;
+    border-radius: 30px;
+    text-align: center;
+    outline:  none;
+}
+
+img.hub
+{
+    display: block;
+    margin-left: auto;
+}
+
+
