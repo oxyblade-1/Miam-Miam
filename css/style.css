@@ -1,0 +1,342 @@
+/* MAIN page css */
+body
+{
+    font-family: "Rubik";
+    background-color: rgb(115,170,175);
+    /* hide scrollbar */
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align element in div */
+    flex-wrap: wrap;
+    background-color: #404040;
+    width: 100vw;
+    height: 100px;
+}
+
+#login
+{
+    margin-left: 5px;
+}
+
+/* product button format */
+button.product_btn
+{
+	width: 500px;
+	height:200px;
+	border: 7px solid #AAA; 
+	background-color: rgb(255,255,255);
+	border-radius : 20px;
+	margin : 10px;
+    transition:400ms;
+}
+
+/* align top product button */
+.button_hub_top
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* space button */
+.product_btn
+{margin: 300px;}
+
+/* NAV BAR */
+/* position navbar element */
+.nav_menu
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button.product_btn:hover{
+    width: 520px ;
+    height: 220px;
+	border: 10px solid #AAA; 
+	background-color: rgb(255,255,255);
+	border-radius : 20px;
+}
+
+nav
+{
+    background-color: #404040;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#searchbar {
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    background-color: #cbcbcb;
+    border: none;
+    width: 609px;
+}
+
+ul
+{list-style-type: none;}
+
+li
+{display: inline;}
+
+
+/* SEARCH BAR */
+input.search_input
+{
+    background-color: #C0C0C0;
+    /* size bar */
+    width: 800px;
+    height: 40px;
+
+    /* border input */
+    border-width: 0;
+    border-radius: 30px;
+    
+    /* border none */
+    outline: none;
+
+    padding-right: 18px;
+    text-align: center; /*align text with search bar*/
+}
+
+#search_logo
+{
+    color: #404040;
+    background-color: #C0C0C0;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+#second
+{
+    width: 30%;
+    /* add logo search */
+
+}
+
+
+/* FOOTER */
+footer
+{
+    background-color: #404040;
+
+    /* size footer */
+    bottom: 0;
+    position: absolute;
+
+    /* element position 
+    text-align: center;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    
+    /* space the buttons & text */
+    width: 100vw;
+
+}
+
+#footerspace {
+    display: flex;
+    /* for secure */
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+}
+
+.right_footer
+{
+    display: flex;
+    /* for secure */
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.produit
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn_cancel
+{
+    color: #FFF;
+    background-color: #FF0000;
+    border-radius: 100%;
+    padding-top: 1px;
+    padding-bottom: 13px;
+    padding-left: 4px;
+    padding-right: 8px;
+    width: 9px;
+    height: 9px;
+}
+
+.btn_moins {
+    margin-left: 2px;
+}
+
+.btn_plus ,
+.btn_moins
+{
+    color: #FFF;
+    background-color: #182731;
+    border-radius: 100%;
+    padding-top: 1px;
+    padding-bottom: 13px;
+    padding-left: 2px;
+    padding-right: 10px;
+    width: 9px;
+    height: 9px;
+}
+
+/* menu déroulant */
+.sidebar
+{
+    position: fixed;
+    right: -250px;
+    width: 250px;
+    top: 0px;
+    height: 100vh;
+    background-color: #2a4553;
+
+    transition: all 500ms ease;
+
+}
+
+/* titre menu deroulant */
+.sidebar header
+{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 70px;
+    user-select: none;
+    background-color: #182731;
+}
+
+/* tout les boutons du menu déroulant */
+.sidebar ul a
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-right: 40px;
+    transition: 400ms;
+
+    /* faire des barre en métale */
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+/* animation vers la gauche */
+ul li:hover a#choice
+{padding-left: 50px;}
+
+/* décalage entre les icons et le texte */
+.sidebar ul a
+{padding-left: 16px;}
+
+#check
+{display: none;}
+
+label #btn
+{
+        /* reste fixe */
+        position: absolute;
+        margin-top: 4px;
+        left: calc(100vw - 75px);
+        cursor: pointer;
+        /* background-color: #043A5A; */
+        border-radius: 3px;
+        font-size: 30px; 
+}
+
+label #cancel
+{
+    /* reste fixe */
+    position: absolute;
+    cursor: pointer;
+    color: white !important;
+    /* background-color: #043A5A; */
+    border-radius: 3px;
+    font-size: 30px; 
+}
+
+/* position du btn (pour cadis) */
+label #btn
+{
+    right: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: white;
+    padding: 6px 12px;
+    transition: all 500ms;
+}
+
+/* position du btn (pour la croix) */
+label #cancel
+{
+    /* a voir à quoi sa sert */
+    z-index: 1111;
+
+    right: -195px;
+    top: 17px;
+    font-size: 30px;
+    color: #021F30;
+    padding: 4px 9px;
+    transition: all 500ms;
+}
+
+/* detecte lorsque l'utilisateur click */
+#check:checked ~ .sidebar
+{right: 0;}
+
+/* mettre le fond en sombre */
+#check:checked ~ label #cancel
+{
+    right: 195px;
+}
+
+body
+{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#paiement
+{
+    /* position */
+    border-radius: 50px;
+    margin-top: 510px;
+
+    font-family: "Rubik";
+    text-align: center;
+    background-color: white;
+    color: #2A4553;
+}

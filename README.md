@@ -1,14 +1,20 @@
-# Miam-Miam
-git clone https://github.com/oxyblade-1/Miam-Miam.git
+#GITHUB DE MIAM MIAM
 
-*Des que tu as installer tes fichiers et fait les modification
-que tu voulais execute les commandes suivantes* :
+***
 
-`git add *`
-*ajout de l'enssemble des fichiers*
+Voici la page d'acceuil ainsi que le code du site miam-miam
+vous pouvez aller sur notre site juste en clickant sur ce lien
 
-`git commit -m "met ton message"`
-*compresser ton fichier et dit le nom*
+>> **(LIEN MIAM MIAM)[https://oxyblade-1.github.io/Miam-Miam/]**
 
-`git push`
-*envoi sur github*
+***
+
+## INFORMATIONS TECHNIQUE SITE WEB
+
+__code couleur du site web__
+
+fond de page : ```#73AAAF```
+couleur de fond du titre du panier: ```#182731```
+bar de panier : ```#2A4553```
+
+
