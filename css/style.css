@@ -340,3 +340,100 @@ body
     background-color: white;
     color: #2A4553;
 }
+
+.firstline
+{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.secondline
+{
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image_about
+{
+    width: 50vw;
+    border-radius: 50px;
+}
+
+iframe
+{
+    width: 50vw;
+    border-radius: 50px;
+}
+
+.main_about {
+    width: 100vw;
+}
+
+.blabla
+{
+    margin: 30px;
+    width: 50%;
+}
+
+.bodyabout {    
+    overflow-y: scroll;
+    height: 150vh;
+}
+
+.footerabout
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: #404040;
+    height: 350px;
+}
+
+.footerabouttot {
+    position: absolute;
+    bottom: 0;
+    top: calc(150vh - 350px);
+}
+
+.footerabout h2
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 50pt;
+}
+
+.flexboxfooter
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexboxperson
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.aboutpersonline
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.person {
+    border-radius: 20px;
+}
